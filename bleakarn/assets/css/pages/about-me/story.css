@@ -1,0 +1,169 @@
+.story-page {
+  min-height: 100vh;
+  padding: 80px 20px;
+ 
+  color: #c9d1d9;
+  font-family: "Inter", sans-serif;
+}
+
+.story-title {
+  font-size: 2.2rem;
+  font-weight: 500;
+  margin-bottom: 60px;
+  letter-spacing: 0.05em;
+  color: #e6edf3;
+}
+
+.story-timeline {
+  max-width: 700px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 30px;
+}
+
+.story-timeline::before {
+  content: "";
+  position: absolute;
+  left: 6px;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    #2f81f7,
+    transparent
+  );
+  opacity: 10;
+}
+
+.story-item {
+  position: relative;
+  margin-bottom: 50px;
+  padding-left: 30px;
+}
+
+.story-item::before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: 6px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #2f81f7;
+  opacity: 0.4;
+}
+
+.story-date {
+  display: block;
+  font-size: 0.85rem;
+  color: #8b949e;
+  margin-bottom: 8px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.story-text {
+  font-size: 1.05rem;
+  line-height: 1.6;
+  color: #c9d1d9;
+  max-width: 500px;
+}
+
+/* Особливий момент — 18 років */
+.story-item.accent::before {
+  background-color: var(--accent);
+  opacity: 1;
+}
+
+.story-item.accent .story-date {
+  color: var(--accent);
+}
+
+.story-item.accent .story-text {
+  color: #ffffff;
+}
+
+
+
+/* Загальний стиль модального вікна */
+.modal {
+  display: none; /* ховаємо за замовчуванням */
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto; /* для скролу всередині */
+  background-color: rgba(0, 0, 0, 0.85);
+  backdrop-filter: blur(6px);
+  transition: opacity 0.3s ease;
+}
+
+/* Контейнер модалки */
+.modal-content {
+  
+  background-color: #0d1117;
+  margin: 5% auto; /* зверху менше відступу */
+  padding: 30px 40px;
+  border-radius: 16px;
+  max-width: 600px;
+  max-height: 80vh; /* обмеження висоти */
+  color: #c9d1d9;
+  box-shadow: 0 0 30px rgba(79, 140, 255, 0.4);
+  overflow-y: auto; /* вертикальний скрол якщо текст довгий */
+  scroll-behavior: smooth;
+  position: relative;
+}
+
+/* Хрестик закриття */
+.modal-close {
+  position: absolute;
+  top: 12px;
+  right: 20px;
+  color: #c9d1d9;
+  font-size: 1.7rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.modal-close:hover {
+  color: var(--accent);
+  transform: rotate(90deg);
+}
+
+/* Заголовок модалки */
+.modal-content h2 {
+  font-size: 1.8rem;
+  margin-bottom: 15px;
+  color: #e6edf3;
+  border-bottom: 1px solid #2f81f7;
+  padding-bottom: 5px;
+}
+
+/* Текст всередині */
+.modal-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #c9d1d9;
+  margin-bottom: 15px;
+}
+
+/* Для довгого тексту — скрол */
+.modal-content::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-content::-webkit-scrollbar-thumb {
+  background-color: rgba(79, 140, 255, 0.4);
+  border-radius: 4px;
+}
+
+.modal-content::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 20px;   /* відступ зверху */
+  margin-bottom: 20px; /* відступ знизу */
+}

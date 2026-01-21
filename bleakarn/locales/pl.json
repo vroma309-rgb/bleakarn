@@ -1,0 +1,87 @@
+{
+  "title": {
+    "index": "Strona główna",
+    "about": "O mnie",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "copyright": "Prawa autorskie",
+    "story": "Moja historia"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "about": "O mnie",
+    "contact": "Kontakt"
+  },
+  "footer": {
+    "text": "© 2026 Wszelkie prawa zastrzeżone",
+    "privacy-policy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "copyright": "Prawa autorskie",
+    "contact": "Kontakt"
+  },
+  "about": {
+    "name": "Vashchuk Roman Yuriiovych",
+    "date": "23 sierpnia 2008",
+    "quote": "Nie spieszę się z wyjaśnianiem siebie.",
+    "description": {
+      "observe": "Obserwuję więcej, niż mówię.",
+      "love": "Cenię kontrolę, ciszę i strukturę.",
+      "things": "Rzeczy powinny działać, a nie robić wrażenie."
+    },
+    "traits": {
+      "calm": "Spokój",
+      "mindful": "Uważność",
+      "independent": "Samodzielność",
+      "depth": "Głębia"
+    },
+    "story-link": "Historia życia",
+    "ending": "Niektórych lepiej zrozumieć, nie zadając pytań."
+  },
+  "home": {
+    "intro": {
+      "small": "Osobista Przestrzeń",
+      "title_line1": "Nie tworzę wizerunku —",
+      "title_line2": "po prostu jestem.",
+      "text": "Nie ma tu celu zaimponowania. Jest tylko próba pozostawienia śladu w ciszy."
+    },
+    "hero": {
+      "about": "O mnie",
+      "contact": "Kontakt"
+    },
+    "about": "Jestem zwykłą osobą, która lubi się rozwijać, próbować nowych rzeczy i tworzyć własne. Ta strona nie jest o zawodzie, ale o mnie: moich zainteresowaniach, myślach i drodze.",
+    "blocks": {
+      "observe": {
+        "title": "Obserwacja",
+        "text": "Więcej obserwuję, niż tłumaczę."
+      },
+      "order": {
+        "title": "Porządek",
+        "text": "Rzeczy mają swoje miejsce i czas."
+      },
+      "depth": {
+        "title": "Głębia",
+        "text": "Powierzchowność mnie nie interesuje."
+      }
+    },
+    "now": {
+      "learn": {
+        "title": "🧠 Aktualnie Interesuje Mnie",
+        "text": "Samorozwój, obserwacja i nowe pomysły"
+      },
+      "free": {
+        "title": "🎧 W Wolnym Czasie",
+        "text": "Muzyka, spokój i własna przestrzeń"
+      },
+      "plan": {
+        "title": "✍️ Myślę Nad",
+        "text": "Tworzeniem rzeczy, które mają sens"
+      }
+    },
+    "paths": {
+      "about": "Dowiedz się więcej o mnie",
+      "contact": "Skontaktuj się ze mną",
+      "blog": "Moje myśli"
+    },
+    "quote": "“Ta strona to moja przestrzeń w sieci.”"
+  }
+}

@@ -1,0 +1,30 @@
+footer {
+  color: var(--muted);
+  padding: 10px 16px;
+}
+/* Контейнер копірайту */
+.footer-copyright {
+  text-align: center;
+  font-size: 0.85rem;
+  margin-bottom: 10px;
+}
+
+/* Навігація у футері */
+.footer-links { 
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+/* Посилання */
+.footer-links a {
+  color: var(--muted);
+  text-decoration: none;
+  margin: 0 4px;
+  transition: color 0.2s ease;
+}
+
+/* Hover */
+.footer-links a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
