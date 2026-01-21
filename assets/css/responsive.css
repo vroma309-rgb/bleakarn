@@ -1,0 +1,28 @@
+/* Адаптивність для мобільних пристроїв */
+@media (max-width: 100px) {
+  .header__nav {
+    display: none; /* ховаємо меню на мобільних */
+  }
+
+  .hero h1, .page-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero p, .page-content p {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 600px) {
+  .about-profile {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .profile-photo {
+    width: 96px;
+    height: 96px;
+  }
+}
+@media (max-width: 460px) {
+
+}

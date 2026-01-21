@@ -1,0 +1,88 @@
+{
+  "title": {
+    "index": "Home",
+    "about": "About Me",
+    "contact": "Contact",
+    "blog": "Blog",
+    "copyright": "Copyright",
+    "story": "My Story"
+  },
+  "nav": {
+    "home": "Home",
+    "about": "About Me",
+    "contact": "Contact"
+  },
+  "footer": {
+    "text": "© 2026 All rights reserved",
+    "privacy-policy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "copyright": "Copyright",
+    "contact": "Contact"
+  },
+  "about": {
+    "name": "Vashchuk Roman Yuriyovych",
+    "date": "August 23, 2008",
+    "quote": "I don't rush to explain myself.",
+    "description": {
+      "observe": "I observe more than I speak.",
+      "love": "I love control, silence, and structure.",
+      "things": "Things should work, not impress."
+    },
+    "traits": {
+      "calm": "Calm",
+      "mindful": "Mindful",
+      "independent": "Independent",
+      "depth": "Depth"
+    },
+    "story-link": "Life Story",
+    "ending": "Some are better understood without asking."
+  },
+  "home": {
+    "intro": {
+      "small": "Personal Space",
+      "title_line1": "I don't create an image —",
+      "title_line2": "I simply exist.",
+      "text": "There is no aim to impress here. Only an attempt to leave a trace in the silence."
+    },
+    "hero": {
+      "about": "About Me",
+      "contact": "Contact"
+    },
+    "about": "I am an ordinary person who loves to grow, try new things, and create my own things. This site is not about a profession, it's about me: my interests, thoughts, and path.",
+    "blocks": {
+      "observe": {
+        "title": "Observation",
+        "text": "I observe more than I explain."
+      },
+      "order": {
+        "title": "Order",
+        "text": "Things have their place and time."
+      },
+      "depth": {
+        "title": "Depth",
+        "text": "The surface does not interest me."
+      }
+    },
+    "now": {
+      "learn": {
+        "title": "🧠 Currently Interested In",
+        "text": "Self-development, observation, and new ideas"
+      },
+      "free": {
+        "title": "🎧 In Free Time",
+        "text": "Music, tranquility, and personal space"
+      },
+      "plan": {
+        "title": "✍️ Thinking About",
+        "text": "Creating things that have meaning"
+      }
+    },
+    "paths": {
+      "about": "Learn more about me",
+      "contact": "Get in touch with me",
+      "blog": "My thoughts"
+    },
+    "quote": "“This site is my space on the web.”"
+  }
+
+}

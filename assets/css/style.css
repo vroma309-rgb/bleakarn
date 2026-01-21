@@ -1,0 +1,49 @@
+:root {
+  --bg: #000000;
+  --bg-secondary: #141414;
+  --text: #ffffff;
+  --muted: #9aa0a6;
+  --accent: #5b8cff;
+  --border: #30363d;
+
+
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--text);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--accent);
+}
+
+.main {
+    max-width: 1200px;
+  margin: 0 auto;
+  padding: 5px 20px;
+  margin: auto;
+  min-height: 84vh;
+}
+
+/* Для довгого тексту — скрол */
+body::-webkit-scrollbar {
+  width: 4px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgba(79, 140, 255, 0.4);
+  border-radius: 4px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  margin-top: 20px;   /* відступ зверху */
+  margin-bottom: 20px; /* відступ знизу */
+}
