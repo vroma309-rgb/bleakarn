@@ -1,3 +1,0 @@
-window.detectLanguage = () => {
-  return "en";
-};
