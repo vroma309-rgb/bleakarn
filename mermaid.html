@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ELK Layout</title>
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs';
+        import elkLayouts from 'https://cdn.jsdelivr.net/npm/@mermaid-js/layout-elk@0/dist/mermaid-layout-elk.esm.min.mjs';
+
+        mermaid.registerLayoutLoaders(elkLayouts);
+        mermaid.initialize({
+            theme: 'dark',
+            startOnLoad: true,
+        });
+    </script>
+    <style>
+        body {
+            background-color: #121212; /* Темний фон */
+            margin: 0;
+            padding: 20px;
+            justify-content: center; /* Центрування по горизонталі */
+            align-items: center;     /* Центрування по вертикалі */
+            min-height: 100vh;       /* Мінімальна висота на весь екран */
+        }
+        
+        .mermaid {
+            background-color: #1e1e1e; /* Темний фон самої діаграми */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); /* Тінь для ефекту глибини */
+        }
+        
+        /* Покращення вигляду тексту та ліній у темній темі Mermaid */
+        .node rect {
+            fill: #1e3a8a; /* Темно-синій для прямокутників */
+            stroke: #3b82f6; /* Синій контур */
+            stroke-width: 2px;
+        }
+        .node text {
+            fill: #ffffff; /* Білий текст */
+            font-weight: bold;
+        }
+        .edgePath path {
+            stroke: #60a5fa; /* Світло-синій для стрілок */
+            stroke-width: 2px;
+        }
+    </style>
+</head>
+<body>
+    <div class="mermaid">
+%%{init: { 'flowchart': { 'defaultRenderer': 'elk' } } }%%
+flowchart TB
+    index["index"]
+    about["about"]
+    contact["contact"]
+    copyright["copyright"]
+    privacy["privacy-policy"]
+    terms["terms"]
+    blog["blog"]
+    story["story"]
+
+    depth["depth"]
+    free["free"]
+    learn["learn"]
+    observe["observe"]
+    order["order"]
+    plan["plan"]
+
+    index --> index & about & contact & copyright & privacy & terms
+    about --> index & about & contact & copyright & privacy & terms
+    contact --> index & about & contact & copyright & privacy & terms
+    copyright --> index & about & contact & copyright & privacy & terms
+    privacy --> index & about & contact & copyright & privacy & terms
+    terms --> index & about & contact & copyright & privacy & terms
+
+
+    
+    index --> depth & free & learn & observe & order & plan
+
+    contact --> blog
+
+    blog --> index & about & contact & copyright & privacy & terms
+    blog --> story
+
+    story --> index & about & contact & copyright & privacy & terms
+
+    depth --> index & about & contact & copyright & privacy & terms
+
+    free --> index & about & contact & copyright & privacy & terms
+
+    learn --> index & about & contact & copyright & privacy & terms
+
+    observe --> index & about & contact & copyright & privacy & terms
+
+    order --> index & about & contact & copyright & privacy & terms
+
+    plan --> index & about & contact & copyright & privacy & terms
+
+    </div>
+</body>
+</html>

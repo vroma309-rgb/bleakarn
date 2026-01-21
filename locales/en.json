@@ -61,9 +61,7 @@
       "depth": {
         "title": "Depth",
         "text": "The surface does not interest me."
-      }
-    },
-    "now": {
+      },
       "learn": {
         "title": "🧠 Currently Interested In",
         "text": "Self-development, observation, and new ideas"
@@ -83,6 +81,34 @@
       "blog": "My thoughts"
     },
     "quote": "“This site is my space on the web.”"
+  },
+  "free": {
+   "intro": {
+      "small": "Personal",
+      "title_line1": "In my free time",
+      "title_line2": "I remain myself",
+      "text": "It's not about entertainment. It's about moments when nothing needs to be proven."
+    },
+   
+    "blocks": {
+      "music": {
+        "title": "🎧 Music",
+        "text": "A backdrop for thoughts and silence. Sometimes on repeat, sometimes in the background."
+      },
+      "books": {
+        "title": "📖 Books",
+        "text": "I don't read fast, but I read attentively. What matters is not how much, but what remains."
+      },
+      "silence": {
+        "title": "🌙 Silence",
+        "text": "A space without noise. That's where thoughts are born."
+      },
+      "observe": {
+        "title": "🧠 Observation",
+        "text": "Of people, of details, of myself. Not everything requires words."
+      }
+    },
+    "quote": "“This website is my space on the web.”"
   }
 
 }

@@ -61,9 +61,7 @@
       "depth": {
         "title": "Głębia",
         "text": "Powierzchowność mnie nie interesuje."
-      }
-    },
-    "now": {
+      },
       "learn": {
         "title": "🧠 Aktualnie Interesuje Mnie",
         "text": "Samorozwój, obserwacja i nowe pomysły"
@@ -81,6 +79,34 @@
       "about": "Dowiedz się więcej o mnie",
       "contact": "Skontaktuj się ze mną",
       "blog": "Moje myśli"
+    },
+    "quote": "“Ta strona to moja przestrzeń w sieci.”"
+  },
+  "free": {
+   "intro": {
+      "small": "Osobiste",
+      "title_line1": "W wolnym czasie",
+      "title_line2": "zostaję sobą",
+      "text": "Nie chodzi o rozrywkę. Chodzi o chwile, gdy nic nie trzeba udowadniać."
+    },
+   
+    "blocks": {
+      "music": {
+        "title": "🎧 Muzyka",
+        "text": "Tło dla myśli i ciszy. Czasami na powtórce, czasami w tle."
+      },
+      "books": {
+        "title": "📖 Książki",
+        "text": "Czytam nie szybko, ale uważnie. Liczy się nie ile, ale co pozostaje."
+      },
+      "silence": {
+        "title": "🌙 Cisza",
+        "text": "Przestrzeń bez hałasu. Tam rodzą się myśli."
+      },
+      "observe": {
+        "title": "🧠 Obserwacja",
+        "text": "Ludzi, szczegółów, siebie. Nie wszystko wymaga słów."
+      }
     },
     "quote": "“Ta strona to moja przestrzeń w sieci.”"
   }

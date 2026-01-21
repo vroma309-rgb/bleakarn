@@ -1,0 +1,138 @@
+.main-section {
+  max-width: 1200px;
+  padding: 50px 0px;
+  color: var(--text);
+} 
+
+/* INTRO / HERO */
+.intro {
+  max-width: 620px;
+}
+
+.small {
+  font-size: 0.75rem;
+  color: var(--muted);
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 14px 0 0;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.line {
+  display: block;
+  width: 42px;
+  height: 2px;
+  background-color: var(--accent);
+  margin: 24px 0;
+}
+
+.text {
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.8;
+}
+
+/* HERO BUTTONS */
+.actions {
+  margin-top: 34px;
+  display: flex;
+  gap: 14px;
+}
+
+.btn {
+  padding: 8px 20px;
+  font-size: 0.9rem;
+  border-radius: 999px;
+  border: 1px solid var(--accent);
+  color: var(--accent);
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: rgba(91, 140, 255, 0.14);
+}
+
+.btn.ghost {
+  border-color: rgba(255,255,255,0.14);
+  color: var(--muted);
+}
+
+/* ABOUT */
+.about {
+  margin-top: 90px;
+  max-width: 640px;
+  color: var(--muted);
+  line-height: 1.8;
+}
+.blocks {
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 28px;
+}
+
+.block {
+  padding: 20px;
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 18px;
+  text-decoration: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  color: inherit;
+}
+
+.block:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 20px rgba(91, 140, 255, 0.2);
+}
+
+.block span {
+  font-size: 0.9rem;
+  color: var(--accent);
+  display: block;
+  margin-bottom: 8px;
+}
+
+.block p {
+  font-size: 0.95rem;
+  color: var(--muted);
+  line-height: 1.6;
+}
+/* PATHS / NAVIGATION HINT */
+.paths {
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.paths a {
+  text-decoration: none;
+  color: var(--accent);
+  font-size: 0.95rem;
+  opacity: 0.85;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.paths a:hover {
+  opacity: 1;
+  transform: translateX(6px);
+}
+
+/* FINAL QUOTE */
+.quote {
+  margin-top: 110px;
+  text-align: center;
+}
+
+.quote p {
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--muted);
+  opacity: 0.8;
+}
