@@ -289,5 +289,38 @@
       }
     },
     "quote": "“Każda mała myśl może wyrosnąć w coś większego.”"
+  },
+  "books": {
+    "intro": {
+      "small": "Czytanie",
+      "title_line1": "Rozdział",
+      "title_line2": "który się nie śpieszy",
+      "text": "Nie wszystkie strony chcą być przeczytane szybko. Niektóre — jedynie zauważone."
+    },
+    "about": {
+      "text1": "Nie czytam szybko. Słowa mają własny rytm, a jeśli go złamiesz — sens znika.",
+      "text2": "Niektóre zdania nie są o treści. Są o stanie, w który wchodzisz, nawet tego nie zauważając.",
+      "text3": "Książka milczy bardziej niż mówi. I właśnie w tej ciszy pojawia się coś prawdziwego.",
+      "text4": "Czytam powoli. Nie z lenistwa — z szacunku. Słowa mają wagę i nie wszystkie warto połykać bez pauzy.",
+      "text5": "Czasem wers cię zatrzymuje. Nie dlatego, że jest trudny — ale dlatego, że jest rozpoznawalny.",
+      "text6": "Książka nie daje odpowiedzi. Ona po prostu zostawia ciszę, w której te odpowiedzi zaczynają się same formować."
+    },
+    "blocks": {
+      "block1": {
+        "now-title": "48 praw władzy",
+        "author": "Robert Greene",
+        "text": "Chłodna książka o strategii i wpływie. Czytasz powoli, uświadamiając sobie więcej, niż się wydaje.",
+        "traits": {
+          "strategy": "Strategia",
+          "power": "Władza",
+          "influence": "Wpływ",
+          "psychology": "Psychologia"
+        }
+      }
+    },
+    "quote": {
+      "text1": "“Niektóre teksty czyta się oczami. Inne — przeżywa.”",
+      "text2": "“Nie wszystko, co napisane, chce być zrozumiane.”"
+    }
   }
 }

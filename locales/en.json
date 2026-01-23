@@ -289,5 +289,38 @@
       }
     },
     "quote": "“Every small thought can grow into something bigger.”"
+  },
+  "books": {
+    "intro": {
+      "small": "Reading",
+      "title_line1": "A chapter",
+      "title_line2": "that takes its time",
+      "text": "Not all pages want to be read quickly. Some—merely noticed."
+    },
+    "about": {
+      "text1": "I don't read fast. Words have their own rhythm, and if you break it—the meaning disappears.",
+      "text2": "Some sentences aren't about content. They're about the state you enter, without even noticing.",
+      "text3": "A book is silent more than it speaks. And it's in that silence that something true appears.",
+      "text4": "I read slowly. Not out of laziness—out of respect. Words have weight, and not all of them should be swallowed without a pause.",
+      "text5": "Sometimes a line stops you. Not because it's difficult—but because it's recognizable.",
+      "text6": "A book doesn't give answers. It simply leaves a silence in which those answers begin to form on their own."
+    },
+    "blocks": {
+      "block1": {
+        "now-title": "The 48 Laws of Power",
+        "author": "Robert Greene",
+        "text": "A cold book about strategy and influence. You read it slowly, realizing more than it seems.",
+        "traits": {
+          "strategy": "Strategy",
+          "power": "Power",
+          "influence": "Influence",
+          "psychology": "Psychology"
+        }
+      }
+    },
+    "quote": {
+      "text1": "“Some texts are read with the eyes. Others—are lived.”",
+      "text2": "“Not everything written wants to be understood.”"
+    }
   }
 }

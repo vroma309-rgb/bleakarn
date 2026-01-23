@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="/bleakarn/" />
+
+    <title data-i18n="title.books">Title</title>
+
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <link rel="stylesheet" href="assets/css/general.css" />
+</head>
+<style>
+    .book .author {
+        font-size: 14px;
+        color: #888;
+        margin-top: 4px;
+    }
+
+    .book .text {
+        margin-top: 10px;
+    }
+
+    .traits-book {
+        margin-top: 40px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .traits-book span {
+        padding: 6px 14px;
+        font-size: 0.85rem;
+        border: 1px solid rgba(255, 255, 255, 0.08);
+        border-radius: 999px;
+        color: var(--muted);
+    }
+</style>
+
+<body>
+    <header id="header"></header>
+
+    <main class="main">
+        <section class="main-section">
+
+            <!-- INTRO -->
+            <div class="intro">
+                <p class="small" data-i18n="books.intro.small">Читання</p>
+                <h1 class="title">
+                    <span data-i18n="books.intro.title_line1">Розділ</span><br />
+                    <span data-i18n="books.intro.title_line2">який не поспішає</span>
+                </h1>
+                <span class="line"></span>
+                <p class="text" data-i18n="books.intro.text">
+                    Не всі сторінки хочуть бути прочитаними швидко.
+                    Деякі — лише поміченими.
+                </p>
+            </div>
+
+            <!-- TEXT -->
+            <div class="about">
+                <p data-i18n="books.about.text1">
+                    Я не читаю швидко.
+                    Слова мають власний ритм, і якщо його зламати —
+                    сенс зникає.
+                </p>
+                <br>
+                <p data-i18n="books.about.text2">
+                    Деякі речення не про зміст.
+                    Вони про стан, у який ти входиш,
+                    навіть не помітивши цього.
+                </p>
+                <br>
+                <p data-i18n="books.about.text3">
+                    Книга мовчить більше, ніж говорить.
+                    І саме в цій тиші
+                    з’являється щось справжнє.
+                </p>
+                <br>
+                <p data-i18n="books.about.text4">
+                    Я читаю повільно. Не через лінощі — через повагу.
+                    Слова мають вагу, і не всі з них варто ковтати без паузи.
+                </p>
+                <br>
+                <p data-i18n="books.about.text5">
+                    Іноді рядок зупиняє. Не тому, що складний —
+                    а тому, що впізнаваний.
+                </p>
+                <br>
+                <p data-i18n="books.about.text6">
+                    Книга не дає відповідей.
+                    Вона просто залишає тишу, в якій ці відповіді
+                    починають формуватись самі.
+                </p>
+            </div>
+
+            <div class="blocks">
+                <a href="assets/pdf/pages/blocks/block/books/48_zakoniv_vlady.pdf" class="block book" target="_blank">
+                    <span data-i18n="books.blocks.block1.now-title" class="now-title">
+                        48 законів влади
+                    </span>
+                    <p data-i18n="books.blocks.block1.author" class="author">
+                        Роберт Грін
+                    </p>
+                    <p data-i18n="books.blocks.block1.text" class="text">
+                        Холодна книга про стратегію і вплив.
+                        Читаєш повільно, усвідомлюєш більше, ніж здається.
+                    </p>
+                    <div class="traits-book">
+                        <span data-i18n="books.blocks.block1.traits.strategy">Стратегія</span>
+                        <span data-i18n="books.blocks.block1.traits.power">Влада</span>
+                        <span data-i18n="books.blocks.block1.traits.influence">Вплив</span>
+                        <span data-i18n="books.blocks.block1.traits.psychology">Психологія</span>
+                    </div>
+                </a>
+            </div>
+
+            <!-- QUOTE -->
+            <div class="quote">
+                <p data-i18n="books.quote.text1">
+                    “Деякі тексти читають очима. Інші — переживають.”
+                </p>
+                <p data-i18n="books.quote.text2">
+                    “Не все написане хоче бути зрозумілим.”
+                </p>
+            </div>
+
+        </section>
+    </main>
+
+    <div id="footer-container"></div>
+
+    <script src="assets/js/i18n/detect-lang.js"></script>
+    <script src="assets/js/i18n/lang-storage.js"></script>
+    <script src="assets/js/i18n/i18n.js"></script>
+    <script src="assets/js/components.js"></script>
+</body>
+
+</html>
