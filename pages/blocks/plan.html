@@ -1,36 +1,115 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/bleakarn/" />
-    <!-- Назва сторінки (i18n) -->
-    <title data-i18n="title.plan">Title</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/bleakarn/" />
+  <!-- Назва сторінки (i18n) -->
+  <title data-i18n="title.plan">Title</title>
 
-    <!-- Main content -->
-    <main class="main">
-    
-    </main>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+</head>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+<body>
+  <!-- Header -->
+  <header id="header"></header>
 
-    <!-- JS -->
-    <script src="assets/js/i18n/detect-lang.js"></script>
-    <script src="assets/js/i18n/lang-storage.js"></script>
-    <script src="assets/js/i18n/i18n.js"></script>
-    <script src="assets/js/components.js"></script>
-  </body>
+  <!-- Main content -->
+  <main class="main">
+    <section class="main-section">
+      <!-- 1️⃣ INTRO / HERO -->
+      <div class="intro">
+        <p class="small" data-i18n="plan.intro.small">Думки та проекти</p>
+        <h1 class="title">
+          <span data-i18n="plan.intro.title_line1">Думаю над</span><br />
+          <span data-i18n="plan.intro.title_line2">речами, які мають сенс</span>
+        </h1>
+        <span class="line"></span>
+        <p class="text" data-i18n="plan.intro.text">
+          Це не хаотичні ідеї чи шум думок. Кожна з них — маленький крок до
+          того, що поступово набуває форми і сенсу.
+        </p>
+      </div>
+
+
+      <div class="about">
+        <p data-i18n="plan.about">
+          Ідеї, плани та задумки, над якими працюю зараз. Малі експерименти та
+          великі проєкти, які поступово формуються і знаходять свій шлях.
+        </p>
+      </div>
+      <!-- 2️⃣ BLOCKS -->
+      <div class="blocks">
+        <a href="pages/blocks/block/projects.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block1.title">💡 Проекти</span>
+          <p data-i18n="plan.blocks.block1.text">
+            Роздуми про те, що цікаво створювати. Ідеї, концепції, маленькі
+            замітки для майбутнього.
+          </p>
+        </a>
+        <a href="pages/blocks/block/ideas.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block2.title">📝 Ідеї</span>
+          <p data-i18n="plan.blocks.block2.text">
+            Те, що крутиться в голові, поки я спостерігаю, слухаю і читаю. Без
+            поспіху, просто думки.
+          </p>
+        </a>
+        <a href="pages/blocks/block/learning.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block3.title">📚 Навчання</span>
+          <p data-i18n="plan.blocks.block3.text">
+            Нові книги, відео та досвід, які дають поштовх для роздумів і
+            натхнення.
+          </p>
+        </a>
+        <a href="pages/blocks/block/earning.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block4.title">💰 Заробіток</span>
+          <p data-i18n="plan.blocks.block4.text">
+            Досліджую різні шляхи монетизації і власного фінансового розвитку.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/self-development.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block5.title">🧠 Саморозвиток</span>
+          <p data-i18n="plan.blocks.block5.text">
+            Практики, книги і досвід, які допомагають рости і мислити
+            по-новому.
+          </p>
+        </a>
+
+        <a href="pages/blocks/order.html" class="block">
+          <span class="now-title" data-i18n="plan.blocks.block6.title">📏 Порядок</span>
+          <p data-i18n="plan.blocks.block6.text">
+            Розуміння, дисципліна та структура в житті допомагають тримати
+            фокус і баланс.
+          </p>
+        </a>
+      </div>
+
+      <!-- 4️⃣ QUOTE -->
+      <div class="quote">
+        <p data-i18n="plan.quote">
+          “Кожна маленька думка може вирости у щось більше.”
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- JS -->
+  <script src="assets/js/i18n/detect-lang.js"></script>
+  <script src="assets/js/i18n/lang-storage.js"></script>
+  <script src="assets/js/i18n/i18n.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+
 </html>

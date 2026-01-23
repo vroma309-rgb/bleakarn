@@ -5,7 +5,15 @@
     "contact": "Kontakt",
     "blog": "Blog",
     "copyright": "Prawa autorskie",
-    "story": "Moja historia"
+    "story": "Moja historia",
+    "privacy-policy": "Polityka prywatności",
+    "terms": "Warunki korzystania",
+    "depth": "Głębia",
+    "observe": "Obserwacja",
+    "order": "Porządek",
+    "free": "W wolnym czasie",
+    "learn": "Obecnie ciekawi",
+    "plan": "Myślę nad"
   },
   "nav": {
     "home": "Strona główna",
@@ -39,39 +47,39 @@
   },
   "home": {
     "intro": {
-      "small": "Osobista Przestrzeń",
+      "small": "Osobista przestrzeń",
       "title_line1": "Nie tworzę wizerunku —",
       "title_line2": "po prostu jestem.",
-      "text": "Nie ma tu celu zaimponowania. Jest tylko próba pozostawienia śladu w ciszy."
+      "text": "Nie chodzi tu o zrobienie wrażenia. Jest tylko próba pozostawienia śladu w ciszy."
     },
     "hero": {
       "about": "O mnie",
       "contact": "Kontakt"
     },
-    "about": "Jestem zwykłą osobą, która lubi się rozwijać, próbować nowych rzeczy i tworzyć własne. Ta strona nie jest o zawodzie, ale o mnie: moich zainteresowaniach, myślach i drodze.",
+    "about": "Jestem zwyczajną osobą, która lubi się rozwijać, próbować nowych rzeczy i tworzyć własne. Ta strona nie jest o profesji, ale o mnie: moich zainteresowaniach, myślach i drodze.",
     "blocks": {
-      "observe": {
+      "block1": {
         "title": "Obserwacja",
-        "text": "Więcej obserwuję, niż tłumaczę."
+        "text": "Więcej patrzę niż wyjaśniam."
       },
-      "order": {
+      "block2": {
         "title": "Porządek",
         "text": "Rzeczy mają swoje miejsce i czas."
       },
-      "depth": {
+      "block3": {
         "title": "Głębia",
         "text": "Powierzchowność mnie nie interesuje."
       },
-      "learn": {
-        "title": "🧠 Aktualnie Interesuje Mnie",
+      "block4": {
+        "title": "🧠 Obecnie ciekawi",
         "text": "Samorozwój, obserwacja i nowe pomysły"
       },
-      "free": {
-        "title": "🎧 W Wolnym Czasie",
+      "block5": {
+        "title": "🎧 W wolnym czasie",
         "text": "Muzyka, spokój i własna przestrzeń"
       },
-      "plan": {
-        "title": "✍️ Myślę Nad",
+      "block6": {
+        "title": "✍️ Myślę nad",
         "text": "Tworzeniem rzeczy, które mają sens"
       }
     },
@@ -82,32 +90,204 @@
     },
     "quote": "“Ta strona to moja przestrzeń w sieci.”"
   },
+  "depth": {
+    "intro": {
+      "small": "Głębokie myśli",
+      "title_line1": "Głębia",
+      "title_line2": "jako obserwacja i świadomość",
+      "text": "Liczy się tu nie powierzchowne postrzeganie, lecz to, co pozostaje po namyśle i obserwacji."
+    },
+    "about": "Głębia to uważność na szczegóły, rozumienie sensu oraz to, co kształtuje mój światopogląd.",
+    "blocks": {
+      "block1": {
+        "title": "🪞 Refleksja",
+        "text": "Zastanawiam się nad własnymi myślami, analizuję działania i odczucia."
+      },
+      "block2": {
+        "title": "🔍 Obserwacja",
+        "text": "Patrzę uważnie na ludzi, naturę i drobiazgi, które zwykle pozostają niezauważone."
+      },
+      "block3": {
+        "title": "💡 Sens",
+        "text": "Szukam tego, co naprawdę ważne, i odrzucam zbędne."
+      },
+      "block4": {
+        "title": "✍️ Pomysły",
+        "text": "Zapisuję myśli i koncepcje, które mogą stać się projektami lub po prostu osobistymi odkryciami."
+      }
+    },
+    "quote": "“Powierzchowne pozostawia wrażenie, głębokie — zmienia światopogląd.”"
+  },
   "free": {
-   "intro": {
+    "intro": {
       "small": "Osobiste",
       "title_line1": "W wolnym czasie",
       "title_line2": "zostaję sobą",
-      "text": "Nie chodzi o rozrywkę. Chodzi o chwile, gdy nic nie trzeba udowadniać."
+      "text": "Nie chodzi tu o rozrywkę. Chodzi o chwile, w których niczego nie trzeba udowadniać."
     },
-   
+    "about": "W wolnym czasie nie szukam korzyści ani rezultatu. To momenty, w których mogę się zatrzymać, pobyć sam na sam z myślami i wrócić do prostych rzeczy, które zwykle gubią się w zgiełku.",
     "blocks": {
-      "music": {
+      "block1": {
         "title": "🎧 Muzyka",
-        "text": "Tło dla myśli i ciszy. Czasami na powtórce, czasami w tle."
+        "text": "Tło dla myśli i ciszy. Czasami na powtórzeniu, czasami w tle."
       },
-      "books": {
+      "block2": {
         "title": "📖 Książki",
-        "text": "Czytam nie szybko, ale uważnie. Liczy się nie ile, ale co pozostaje."
+        "text": "Czytam nie szybko, ale uważnie. Liczy się nie ile, lecz co pozostaje."
       },
-      "silence": {
+      "block3": {
         "title": "🌙 Cisza",
         "text": "Przestrzeń bez hałasu. Tam rodzą się myśli."
       },
-      "observe": {
+      "block4": {
         "title": "🧠 Obserwacja",
         "text": "Ludzi, szczegółów, siebie. Nie wszystko wymaga słów."
+      },
+      "block5": {
+        "title": "🏃 Sport",
+        "text": "Ruch nie dla rezultatu. Dla jasności umysłu i kontroli nad sobą."
       }
     },
-    "quote": "“Ta strona to moja przestrzeń w sieci.”"
+    "quote": "“Niektóre rzeczy warto przeżywać powoli.”"
+  },
+  "learn": {
+    "intro": {
+      "small": "Fokus",
+      "title_line1": "Teraz",
+      "title_line2": "interesuje mnie głębia",
+      "text": "To okres bez pośpiechu. Obserwuję, myślę i uczę się rozumieć, co naprawdę ma znaczenie."
+    },
+    "about": "Nie próbuję nadążyć za wszystkim. Teraz ważne jest dla mnie zrozumienie, co robię i po co. Interesuje mnie rozwój bez pośpiechu, głębia bez pozorów i szczerość wobec siebie.",
+    "blocks": {
+      "block1": {
+        "title": "🧩 Samorozwój",
+        "text": "Uważność, wewnętrzna stabilność i praca nad sobą bez zbędnego zgiełku."
+      },
+      "block2": {
+        "title": "💡 Pomysły",
+        "text": "Myśli, które jeszcze nie stały się projektami. Daję im czas, by się ukształtowały."
+      },
+      "block3": {
+        "title": "👁 Obserwacja",
+        "text": "Ludzi, zachowań i szczegółów. Nie wszystko wymaga wyjaśnienia."
+      },
+      "block4": {
+        "title": "📚 Nauka",
+        "text": "Wiedza nie dla szybkich rezultatów, ale dla szerszej perspektywy."
+      },
+      "block5": {
+        "title": "🎧 Wolny czas",
+        "text": "To, co utrzymuje równowagę i niczego nie wymaga w zamian."
+      },
+      "block6": {
+        "title": "💡 Projekty",
+        "text": "To, nad czym teraz pracuję, i rzeczy, które chcę doprowadzić do końca."
+      },
+      "block7": {
+        "title": "💰 Zarabianie",
+        "text": "Jak organizuję swój czas i zasoby, by robić pożyteczne rzeczy."
+      }
+    },
+    "quote": "“Nie wszystko musi stać się działaniem. Niektóre rzeczy są po to, by je uświadomić.”"
+  },
+  "observe": {
+    "intro": {
+      "small": "Obserwacja",
+      "title_line1": "Więcej patrzę",
+      "title_line2": "niż wyjaśniam",
+      "text": "Szczegóły, ludzie i chwile. Obserwacja pomaga dostrzec to, co zwykle pozostaje niezauważone."
+    },
+    "about": "Obserwacja to sposób na bycie uważnym na otaczający świat, na rozumienie ludzi i sytuacji, dostrzeganie wzorców i szczegółów, które tworzą pełny obraz.",
+    "blocks": {
+      "block1": {
+        "title": "👀 Ludzie",
+        "text": "Zwracam uwagę na zachowanie, reakcje, emocje i subtelne przejawy charakteru."
+      },
+      "block2": {
+        "title": "🔎 Detale",
+        "text": "Rzeczy, które na pierwszy rzut oka wydają się nieistotne: dźwięki, ruchy, atmosfera przestrzeni."
+      },
+      "block3": {
+        "title": "🧠 Siebie",
+        "text": "Obserwacja własnych myśli i emocji pomaga zrozumieć własne decyzje i zachowanie."
+      }
+    },
+    "quote": "“Aby zrozumieć świat, najpierw naucz się uważnie patrzeć.”"
+  },
+  "order": {
+    "intro": {
+      "small": "Porządek i struktura",
+      "title_line1": "Rzeczy mają swoje miejsce",
+      "title_line2": "i swój czas",
+      "text": "Kiedy wokół panuje porządek, łatwiej zachować spokój ducha. Nawet małe systemy tworzą jasność i pewność."
+    },
+    "about": "Porządek to nie tylko sprawa rzeczy fizycznych. To kwestia procesów, nawyków i systemów, które pomagają się skupić i podejmować decyzje bez zbędnego zgiełku.",
+    "blocks": {
+      "block1": {
+        "title": "📂 Przestrzeń",
+        "text": "Organizacja przestrzeni do pracy i życia dla jasności i komfortu."
+      },
+      "block2": {
+        "title": "🕰 Nawyki",
+        "text": "Codzienne praktyki i rytuały, które pomagają pozostać w skupieniu."
+      },
+      "block3": {
+        "title": "⚙️ Procesy",
+        "text": "Systemy pracy nad projektami i zadaniami, które zmniejszają chaos i zwiększają efektywność."
+      },
+      "block4": {
+        "title": "📋 Planowanie",
+        "text": "Wyznaczam cele i dzielę je na małe kroki, by ruch był łatwy i zrozumiały."
+      },
+      "block5": {
+        "title": "🧹 Porządek",
+        "text": "Czystość na zewnątrz pomaga uporządkować myśli wewnątrz."
+      },
+      "block6": {
+        "title": "📚 Samorozwój",
+        "text": "Małymi krokami każdego dnia doskonalę siebie i rozwijam nowe umiejętności."
+      },
+      "block7": {
+        "title": "🎯 Fokus",
+        "text": "Skupiam się tylko na ważnym, by uniknąć zbędnego hałasu i rozproszenia."
+      }
+    },
+    "quote": "“Porządek na zewnątrz tworzy jasność w środku.”"
+  },
+  "plan": {
+    "intro": {
+      "small": "Myśli i projekty",
+      "title_line1": "Myślę nad",
+      "title_line2": "rzeczami, które mają sens",
+      "text": "To nie są chaotyczne pomysły czy zgiełk myśli. Każdy z nich to mały krok ku czemuś, co stopniowo nabiera kształtu i sensu."
+    },
+    "about": "Pomysły, plany i koncepcje, nad którymi teraz pracuję. Małe eksperymenty i duże projekty, które stopniowo się kształtują i znajdują swoją drogę.",
+    "blocks": {
+      "block1": {
+        "title": "💡 Projekty",
+        "text": "Rozmyślania nad tym, co ciekawe do stworzenia. Pomysły, koncepcje, małe notatki na przyszłość."
+      },
+      "block2": {
+        "title": "📝 Pomysły",
+        "text": "To, co kręci mi się w głowie, gdy obserwuję, słucham i czytam. Bez pośpiechu, po prostu myśli."
+      },
+      "block3": {
+        "title": "📚 Nauka",
+        "text": "Nowe książki, filmy i doświadczenia, które dają impuls do myślenia i inspiracji."
+      },
+      "block4": {
+        "title": "💰 Zarabianie",
+        "text": "Badanie różnych ścieżek monetyzacji i własnego rozwoju finansowego."
+      },
+      "block5": {
+        "title": "🧠 Samorozwój",
+        "text": "Praktyki, książki i doświadczenia, które pomagają mi się rozwijać i myśleć w nowy sposób."
+      },
+      "block6": {
+        "title": "📏 Porządek",
+        "text": "Zrozumienie, dyscyplina i struktura w życiu pomagają utrzymać skupienie i równowagę."
+      }
+    },
+    "quote": "“Każda mała myśl może wyrosnąć w coś większego.”"
   }
 }

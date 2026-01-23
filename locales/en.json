@@ -5,7 +5,15 @@
     "contact": "Contact",
     "blog": "Blog",
     "copyright": "Copyright",
-    "story": "My Story"
+    "story": "My Story",
+    "privacy-policy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "depth": "Depth",
+    "observe": "Observation",
+    "order": "Order",
+    "free": "In My Free Time",
+    "learn": "Currently Interested In",
+    "plan": "Thinking About"
   },
   "nav": {
     "home": "Home",
@@ -41,74 +49,245 @@
     "intro": {
       "small": "Personal Space",
       "title_line1": "I don't create an image —",
-      "title_line2": "I simply exist.",
-      "text": "There is no aim to impress here. Only an attempt to leave a trace in the silence."
+      "title_line2": "I simply am.",
+      "text": "There is no aim to impress. There is only an attempt to leave a trace in the silence."
     },
     "hero": {
       "about": "About Me",
       "contact": "Contact"
     },
-    "about": "I am an ordinary person who loves to grow, try new things, and create my own things. This site is not about a profession, it's about me: my interests, thoughts, and path.",
+    "about": "I am an ordinary person who enjoys growing, trying new things, and creating my own. This site is not about a profession, but about me: my interests, thoughts, and path.",
     "blocks": {
-      "observe": {
+      "block1": {
         "title": "Observation",
         "text": "I observe more than I explain."
       },
-      "order": {
+      "block2": {
         "title": "Order",
         "text": "Things have their place and time."
       },
-      "depth": {
+      "block3": {
         "title": "Depth",
         "text": "The surface does not interest me."
       },
-      "learn": {
-        "title": "🧠 Currently Interested In",
+      "block4": {
+        "title": "🧠 Currently interested in",
         "text": "Self-development, observation, and new ideas"
       },
-      "free": {
-        "title": "🎧 In Free Time",
-        "text": "Music, tranquility, and personal space"
+      "block5": {
+        "title": "🎧 In my free time",
+        "text": "Music, calm, and personal space"
       },
-      "plan": {
-        "title": "✍️ Thinking About",
+      "block6": {
+        "title": "✍️ Thinking about",
         "text": "Creating things that have meaning"
       }
     },
     "paths": {
       "about": "Learn more about me",
-      "contact": "Get in touch with me",
+      "contact": "Contact me",
       "blog": "My thoughts"
     },
     "quote": "“This site is my space on the web.”"
   },
+  "depth": {
+    "intro": {
+      "small": "Deep Thoughts",
+      "title_line1": "Depth",
+      "title_line2": "as observation and awareness",
+      "text": "What matters here is not superficial perception, but what remains after reflection and observation."
+    },
+    "about": "Depth is attentiveness to details, understanding meaning, and what shapes my worldview.",
+    "blocks": {
+      "block1": {
+        "title": "🪞 Reflection",
+        "text": "I contemplate my own thoughts, analyze actions and feelings."
+      },
+      "block2": {
+        "title": "🔍 Observation",
+        "text": "I look carefully at people, nature, and the small things that usually go unnoticed."
+      },
+      "block3": {
+        "title": "💡 Meaning",
+        "text": "I search for what is truly important and discard the unnecessary."
+      },
+      "block4": {
+        "title": "✍️ Ideas",
+        "text": "I record thoughts and concepts that may become projects or simply personal discoveries."
+      }
+    },
+    "quote": "“The superficial leaves an impression; the profound changes a worldview.”"
+  },
   "free": {
-   "intro": {
+    "intro": {
       "small": "Personal",
       "title_line1": "In my free time",
       "title_line2": "I remain myself",
-      "text": "It's not about entertainment. It's about moments when nothing needs to be proven."
+      "text": "This is not about entertainment. It's about moments when nothing needs to be proven."
     },
-   
+    "about": "In my free time, I don't seek benefit or results. These are moments where I can pause, be alone with my thoughts, and return to simple things that are usually lost in the noise.",
     "blocks": {
-      "music": {
+      "block1": {
         "title": "🎧 Music",
         "text": "A backdrop for thoughts and silence. Sometimes on repeat, sometimes in the background."
       },
-      "books": {
+      "block2": {
         "title": "📖 Books",
-        "text": "I don't read fast, but I read attentively. What matters is not how much, but what remains."
+        "text": "I don't read quickly, but attentively. What remains is more important than how much."
       },
-      "silence": {
+      "block3": {
         "title": "🌙 Silence",
-        "text": "A space without noise. That's where thoughts are born."
+        "text": "Space without noise. That's where thoughts are born."
       },
-      "observe": {
+      "block4": {
         "title": "🧠 Observation",
-        "text": "Of people, of details, of myself. Not everything requires words."
+        "text": "Of people, details, myself. Not everything requires words."
+      },
+      "block5": {
+        "title": "🏃 Sport",
+        "text": "Movement not for results. For clarity of mind and self-control."
       }
     },
-    "quote": "“This website is my space on the web.”"
+    "quote": "“Some things are worth experiencing slowly.”"
+  },
+  "learn": {
+    "intro": {
+      "small": "Focus",
+      "title_line1": "Now",
+      "title_line2": "I am interested in depth",
+      "text": "This is a period without rush. I observe, think, and learn to understand what truly matters."
+    },
+    "about": "I'm not trying to keep up with everything. Right now, what's important to me is understanding what I do and why. I am interested in growth without haste, depth without pretense, and honesty with myself.",
+    "blocks": {
+      "block1": {
+        "title": "🧩 Self-development",
+        "text": "Mindfulness, inner stability, and working on myself without unnecessary noise."
+      },
+      "block2": {
+        "title": "💡 Ideas",
+        "text": "Thoughts that haven't become projects yet. I give them time to take shape."
+      },
+      "block3": {
+        "title": "👁 Observation",
+        "text": "Of people, behavior, and details. Not everything requires an explanation."
+      },
+      "block4": {
+        "title": "📚 Learning",
+        "text": "Knowledge not for quick results, but for a broader perspective."
+      },
+      "block5": {
+        "title": "🎧 Free time",
+        "text": "What maintains balance and requires nothing in return."
+      },
+      "block6": {
+        "title": "💡 Projects",
+        "text": "What I'm currently working on, and things I want to bring to completion."
+      },
+      "block7": {
+        "title": "💰 Earning",
+        "text": "How I organize my time and resources to do useful things."
+      }
+    },
+    "quote": "“Not everything has to become action. Some things are meant to be realized.”"
+  },
+  "observe": {
+    "intro": {
+      "small": "Observation",
+      "title_line1": "I observe more",
+      "title_line2": "than I explain",
+      "text": "Details, people, and moments. Observation helps notice what usually remains unseen."
+    },
+    "about": "Observation is a way to be attentive to the world around me, to understand people and situations, to notice patterns and details that form the complete picture.",
+    "blocks": {
+      "block1": {
+        "title": "👀 People",
+        "text": "I pay attention to behavior, reactions, emotions, and subtle manifestations of character."
+      },
+      "block2": {
+        "title": "🔎 Details",
+        "text": "Things that seem insignificant at first glance: sounds, movements, the atmosphere of a space."
+      },
+      "block3": {
+        "title": "🧠 Myself",
+        "text": "Observing my own thoughts and emotions helps me understand my decisions and behavior."
+      }
+    },
+    "quote": "“To understand the world, first learn to look attentively.”"
+  },
+  "order": {
+    "intro": {
+      "small": "Order and Structure",
+      "title_line1": "Things have their place",
+      "title_line2": "and their time",
+      "text": "When there is order around, it's easier to maintain peace of mind. Even small systems create clarity and confidence."
+    },
+    "about": "Order is not just about physical things. It's about processes, habits, and systems that help you focus and make decisions without unnecessary noise.",
+    "blocks": {
+      "block1": {
+        "title": "📂 Space",
+        "text": "Organizing work and living spaces for clarity and comfort."
+      },
+      "block2": {
+        "title": "🕰 Habits",
+        "text": "Daily practices and rituals that help you stay focused."
+      },
+      "block3": {
+        "title": "⚙️ Processes",
+        "text": "Systems for working on projects and tasks that reduce chaos and increase efficiency."
+      },
+      "block4": {
+        "title": "📋 Planning",
+        "text": "I set goals and break them down into small steps to make progress easy and clear."
+      },
+      "block5": {
+        "title": "🧹 Cleanliness",
+        "text": "External order helps bring internal thoughts into order."
+      },
+      "block6": {
+        "title": "📚 Self-development",
+        "text": "I improve myself and develop new skills through small daily steps."
+      },
+      "block7": {
+        "title": "🎯 Focus",
+        "text": "I focus only on what's important to avoid unnecessary noise and distraction."
+      }
+    },
+    "quote": "“Order outside creates clarity inside.”"
+  },
+  "plan": {
+    "intro": {
+      "small": "Thoughts and Projects",
+      "title_line1": "Thinking about",
+      "title_line2": "things that have meaning",
+      "text": "These are not chaotic ideas or mental noise. Each is a small step towards something that gradually takes shape and meaning."
+    },
+    "about": "Ideas, plans, and concepts I'm currently working on. Small experiments and big projects that are gradually taking shape and finding their way.",
+    "blocks": {
+      "block1": {
+        "title": "💡 Projects",
+        "text": "Reflections on what is interesting to create. Ideas, concepts, small notes for the future."
+      },
+      "block2": {
+        "title": "📝 Ideas",
+        "text": "Things that linger in my mind while I observe, listen, and read. Without rush, just thoughts."
+      },
+      "block3": {
+        "title": "📚 Learning",
+        "text": "New books, videos, and experiences that provide food for thought and inspiration."
+      },
+      "block4": {
+        "title": "💰 Earning",
+        "text": "Exploring different paths for monetization and my own financial development."
+      },
+      "block5": {
+        "title": "🧠 Self-development",
+        "text": "Practices, books, and experiences that help me grow and think in new ways."
+      },
+      "block6": {
+        "title": "📏 Order",
+        "text": "Understanding, discipline, and structure in life help maintain focus and balance."
+      }
+    },
+    "quote": "“Every small thought can grow into something bigger.”"
   }
-
 }

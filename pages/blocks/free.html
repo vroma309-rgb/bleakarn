@@ -1,34 +1,34 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/bleakarn/" />
-    <!-- Назва сторінки (i18n) -->
-    <title data-i18n="title.free">Title</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-    <link rel="stylesheet" href="assets/css/general.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/bleakarn/" />
+  <!-- Назва сторінки (i18n) -->
+  <title data-i18n="title.free">Title</title>
 
-    <!-- Main content -->
-    <main class="main">
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+</head>
+
+<body>
+  <!-- Header -->
+  <header id="header"></header>
+
+  <!-- Main content -->
+  <main class="main">
     <section class="main-section">
       <!-- 1️⃣ INTRO / HERO -->
       <div class="intro">
-        <p class="small" data-i18n="free.intro.small">
-          Особисте
-        </p>
-          <h1 class="title">
+        <p class="small" data-i18n="free.intro.small">Особисте</p>
+        <h1 class="title">
           <span data-i18n="free.intro.title_line1">У вільний час</span><br />
           <span data-i18n="free.intro.title_line2">я залишаюсь собою</span>
         </h1>
@@ -37,48 +37,62 @@
           Це не про розваги. Це про моменти, коли нічого не потрібно доводити.
         </p>
       </div>
+      <!-- 2️⃣ ABOUT -->
+      <div class="about">
+        <p data-i18n="free.about">
+          У вільний час я не шукаю користі чи результату. Це моменти, де можна
+          зупинитись, побути наодинці з думками і повернутись до простих
+          речей, які зазвичай губляться в шумі.
+        </p>
+      </div>
 
-         <div class="blocks">
-        <a href="music.html" class="block">
-          <span class="now-title" data-i18n="free.blocks.music.title">🎧 Музика</span>
-          <p data-i18n="free.blocks.music.text">
-           Фон для думок і тиші. Іноді — на повторі, іноді — фоном.
+      <div class="blocks">
+        <a href="pages/blocks/block/music.html" class="block">
+          <span class="now-title" data-i18n="free.blocks.block1.title">🎧 Музика</span>
+          <p data-i18n="free.blocks.block1.text">
+            Фон для думок і тиші. Іноді — на повторі, іноді — фоном.
           </p>
         </a>
-        <a href="books.html" class="block">
-          <span class="now-title" data-i18n="free.blocks.books.title">📖 Книги</span>
-          <p data-i18n="free.blocks.books.text">
+        <a href="pages/blocks/block/books.html" class="block">
+          <span class="now-title" data-i18n="free.blocks.block2.title">📖 Книги</span>
+          <p data-i18n="free.blocks.block2.text">
             Читаю не швидко, але уважно. Важливо не скільки, а що лишається.
           </p>
         </a>
-        <a href="silence.html" class="block">
-          <span class="now-title" data-i18n="free.blocks.silence.title">🌙 Тиша</span>
-          <p data-i18n="free.blocks.silence.text">
+        <a href="pages/blocks/block/silence.html" class="block">
+          <span class="now-title" data-i18n="free.blocks.block3.title">🌙 Тиша</span>
+          <p data-i18n="free.blocks.block3.text">
             Простір без шуму. Там народжуються думки.
           </p>
         </a>
-        <a href="observe.html" class="block">
-          <span class="now-title" data-i18n="free.blocks.observe.title">🧠 Спостереження</span>
-          <p data-i18n="free.blocks.observe.text">
-           За людьми, деталями, собою. Не все потребує слів.
+        <a href="pages/blocks/observe.html" class="block">
+          <span class="now-title" data-i18n="free.blocks.block4.title">🧠 Спостереження</span>
+          <p data-i18n="free.blocks.block4.text">
+            За людьми, деталями, собою. Не все потребує слів.
+          </p>
+        </a>
+        <a href="pages/blocks/block/sport.html" class="block">
+          <span class="now-title" data-i18n="free.blocks.block5.title">🏃 Спорт</span>
+          <p data-i18n="free.blocks.block5.text">
+            Рух не для результату. Для ясності в голові і контролю над собою.
           </p>
         </a>
       </div>
-      
+
       <div class="quote">
-        <p data-i18n="">“Деякі речі варто проживати повільно.”</p>
+        <p data-i18n="free.quote">“Деякі речі варто проживати повільно.”</p>
       </div>
     </section>
-      
-    </main>
+  </main>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+  <!-- Footer -->
+  <div id="footer-container"></div>
 
-    <!-- JS -->
-    <script src="assets/js/i18n/detect-lang.js"></script>
-    <script src="assets/js/i18n/lang-storage.js"></script>
-    <script src="assets/js/i18n/i18n.js"></script>
-    <script src="assets/js/components.js"></script>
-  </body>
+  <!-- JS -->
+  <script src="assets/js/i18n/detect-lang.js"></script>
+  <script src="assets/js/i18n/lang-storage.js"></script>
+  <script src="assets/js/i18n/i18n.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+
 </html>

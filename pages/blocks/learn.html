@@ -1,36 +1,124 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/bleakarn/" />
-    <!-- Назва сторінки (i18n) -->
-    <title data-i18n="title.learn">Title</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/bleakarn/" />
 
-    <!-- Main content -->
-    <main class="main">
-    
-    </main>
+  <!-- Назва сторінки (i18n) -->
+  <title data-i18n="title.learn">Title</title>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+</head>
 
-    <!-- JS -->
-    <script src="assets/js/i18n/detect-lang.js"></script>
-    <script src="assets/js/i18n/lang-storage.js"></script>
-    <script src="assets/js/i18n/i18n.js"></script>
-    <script src="assets/js/components.js"></script>
-  </body>
+<body>
+  <!-- Header -->
+  <header id="header"></header>
+
+  <!-- Main content -->
+  <main class="main">
+    <section class="main-section">
+      <!-- 1️⃣ INTRO / HERO -->
+      <div class="intro">
+        <p class="small" data-i18n="learn.intro.small">Фокус</p>
+
+        <h1 class="title">
+          <span data-i18n="learn.intro.title_line1">Зараз</span><br />
+          <span data-i18n="learn.intro.title_line2">мене цікавить глибина</span>
+        </h1>
+
+        <span class="line"></span>
+
+        <p class="text" data-i18n="learn.intro.text">
+          Це період без поспіху. Я спостерігаю, думаю і вчуся розуміти, що
+          справді має значення.
+        </p>
+      </div>
+      <div class="about">
+        <p data-i18n="learn.about">
+          Я не намагаюсь встигнути за всім. Зараз для мене важливо розуміти,
+          що я роблю і навіщо. Мене цікавить ріст без поспіху, глибина без
+          показухи і чесність із собою.
+        </p>
+      </div>
+      <!-- 2️⃣ BLOCKS -->
+      <div class="blocks">
+        <a href="pages/blocks/block/self-development.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block1.title"> 🧩 Саморозвиток </span>
+          <p data-i18n="learn.blocks.block1.text">
+            Усвідомленість, внутрішня стабільність і робота над собою без
+            зайвого шуму.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/ideas.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block2.title"> 💡 Ідеї </span>
+          <p data-i18n="learn.blocks.block2.text">
+            Думки, які ще не стали проєктами. Я даю їм час сформуватись.
+          </p>
+        </a>
+
+        <a href="pages/blocks/observe.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block3.title"> 👁 Спостереження </span>
+          <p data-i18n="learn.blocks.block3.text">
+            За людьми, поведінкою і деталями. Не все потребує пояснення.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/learning.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block4.title"> 📚 Навчання </span>
+          <p data-i18n="learn.blocks.block4.text">
+            Знання не заради швидкого результату, а для ширшого бачення.
+          </p>
+        </a>
+
+        <a href="pages/blocks/free.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block5.title"> 🎧 Вільний час </span>
+          <p data-i18n="learn.blocks.block5.text">
+            Те, що підтримує баланс і не вимагає нічого взамін.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/projects.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block6.title">💡 Проекти</span>
+          <p data-i18n="learn.blocks.block6.text">
+            Те, над чим зараз працюю, і речі, які хочу довести до кінця.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/earning.html" class="block">
+          <span class="now-title" data-i18n="learn.blocks.block7.title">💰 Заробіток</span>
+          <p data-i18n="learn.blocks.block7.text">
+            Як я організовую свій час і ресурси, щоб робити корисні речі.
+          </p>
+        </a>
+      </div>
+
+      <!-- 3️⃣ QUOTE -->
+      <div class="quote">
+        <p data-i18n="learn.quote">
+          “Не все має ставати дією. Деякі речі мають бути усвідомлені.”
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- JS -->
+  <script src="assets/js/i18n/detect-lang.js"></script>
+  <script src="assets/js/i18n/lang-storage.js"></script>
+  <script src="assets/js/i18n/i18n.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+
 </html>

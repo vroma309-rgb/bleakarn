@@ -1,36 +1,100 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/bleakarn/" />
-    <!-- Назва сторінки (i18n) -->
-    <title data-i18n="title.depth">Title</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/bleakarn/" />
+  <!-- Назва сторінки (i18n) -->
+  <title data-i18n="title.depth">Title</title>
 
-    <!-- Main content -->
-    <main class="main">
-    
-    </main>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+</head>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+<body>
+  <!-- Header -->
+  <header id="header"></header>
 
-    <!-- JS -->
-    <script src="assets/js/i18n/detect-lang.js"></script>
-    <script src="assets/js/i18n/lang-storage.js"></script>
-    <script src="assets/js/i18n/i18n.js"></script>
-    <script src="assets/js/components.js"></script>
-  </body>
+  <!-- Main content -->
+  <main class="main">
+    <section class="main-section">
+      <!-- 1️⃣ INTRO / HERO -->
+      <div class="intro">
+        <p class="small" data-i18n="depth.intro.small">Глибокі думки</p>
+        <h1 class="title">
+          <span data-i18n="depth.intro.title_line1">Глибина</span><br />
+          <span data-i18n="depth.intro.title_line2">як спостереження і усвідомлення</span>
+        </h1>
+        <span class="line"></span>
+        <p class="text" data-i18n="depth.intro.text">
+          Тут важливе не поверхневе сприйняття, а те, що залишається після
+          роздумів і спостережень.
+        </p>
+      </div>
+
+      <!-- 2️⃣ ABOUT -->
+      <div class="about">
+        <p data-i18n="depth.about">
+          Глибина — це уважність до деталей, розуміння сенсу та те, що формує
+          моє бачення світу.
+        </p>
+      </div>
+
+      <!-- 3️⃣ BLOCKS -->
+      <div class="blocks">
+        <a href="pages/blocks/block/reflection.html" class="block">
+          <span class="now-title" data-i18n="depth.blocks.block1.title">🪞 Рефлексія</span>
+          <p data-i18n="depth.blocks.block1.text">
+            Задумуюсь над власними думками, аналізую вчинки і відчуття.
+          </p>
+        </a>
+
+        <a href="pages/blocks/observe.html" class="block">
+          <span class="now-title" data-i18n="depth.blocks.block2.title">🔍 Спостереження</span>
+          <p data-i18n="depth.blocks.block2.text">
+            Дивлюсь уважно на людей, природу та дрібниці, які зазвичай
+            залишаються непоміченими.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/meaning.html" class="block">
+          <span class="now-title" data-i18n="depth.blocks.block3.title">💡 Сенс</span>
+          <p data-i18n="depth.blocks.block3.text">Шукаю, що дійсно важливо, і відкидаю зайве.</p>
+        </a>
+
+        <a href="pages/blocks/block/ideas.html" class="block">
+          <span class="now-title" data-i18n="depth.blocks.block4.title">✍️ Ідеї</span>
+          <p data-i18n="depth.blocks.block4.text">
+            Фіксую думки та концепції, які можуть стати проектами або просто
+            особистими відкриттями.
+          </p>
+        </a>
+      </div>
+
+      <!-- 4️⃣ QUOTE -->
+      <div class="quote">
+        <p data-i18n="depth.quote">
+          “Поверхневе залишає враження, глибоке — змінює світогляд.”
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- JS -->
+  <script src="assets/js/i18n/detect-lang.js"></script>
+  <script src="assets/js/i18n/lang-storage.js"></script>
+  <script src="assets/js/i18n/i18n.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+
 </html>

@@ -1,36 +1,119 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <base href="/bleakarn/" />
-    <!-- Назва сторінки (i18n) -->
-    <title data-i18n="title.order">Title</title>
 
-    <!-- CSS -->
-    <link rel="stylesheet" href="assets/css/reset.css" />
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/header.css" />
-    <link rel="stylesheet" href="assets/css/footer.css" />
-    <link rel="stylesheet" href="assets/css/lang-switcher.css" />
-    <link rel="stylesheet" href="assets/css/responsive.css" />
-  </head>
-  <body>
-    <!-- Header -->
-    <header id="header"></header>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <base href="/bleakarn/" />
+  <!-- Назва сторінки (i18n) -->
+  <title data-i18n="title.order">Title</title>
 
-    <!-- Main content -->
-    <main class="main">
-    
-    </main>
+  <!-- CSS -->
+  <link rel="stylesheet" href="assets/css/reset.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/header.css" />
+  <link rel="stylesheet" href="assets/css/footer.css" />
+  <link rel="stylesheet" href="assets/css/lang-switcher.css" />
+  <link rel="stylesheet" href="assets/css/responsive.css" />
+  <link rel="stylesheet" href="assets/css/general.css" />
+</head>
 
-    <!-- Footer -->
-    <div id="footer-container"></div>
+<body>
+  <!-- Header -->
+  <header id="header"></header>
 
-    <!-- JS -->
-    <script src="assets/js/i18n/detect-lang.js"></script>
-    <script src="assets/js/i18n/lang-storage.js"></script>
-    <script src="assets/js/i18n/i18n.js"></script>
-    <script src="assets/js/components.js"></script>
-  </body>
+  <!-- Main content -->
+  <main class="main">
+    <section class="main-section">
+      <!-- 1️⃣ INTRO / HERO -->
+      <div class="intro">
+        <p class="small" data-i18n="order.intro.small">Порядок та структура</p>
+        <h1 class="title">
+          <span data-i18n="order.intro.title_line1">Речі мають своє місце</span><br />
+          <span data-i18n="order.intro.title_line2">і свій час</span>
+        </h1>
+        <span class="line"></span>
+        <p class="text" data-i18n="order.intro.text">
+          Коли порядок є навколо, легше зберігати спокій у голові.
+          Навіть маленькі системи створюють ясність і впевненість.
+        </p>
+      </div>
+
+      <!-- 2️⃣ ABOUT -->
+      <div class="about">
+        <p data-i18n="order.about">
+          Порядок — це не лише про фізичні речі. Це про процеси, звички та системи,
+          які допомагають концентруватись і приймати рішення без зайвого шуму.
+        </p>
+      </div>
+
+      <!-- 3️⃣ BLOCKS / КАРТОЧКИ -->
+      <div class="blocks">
+        <a href="pages/blocks/block/space.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block1.title">📂 Простір</span>
+          <p data-i18n="order.blocks.block1.text">
+            Організація робочого і житлового простору для ясності та комфорту.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/habits.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block2.title">🕰 Звички</span>
+          <p data-i18n="order.blocks.block2.text">
+            Щоденні практики і ритуали, які допомагають залишатись в фокусі.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/process.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block3.title">⚙️ Процеси</span>
+          <p data-i18n="order.blocks.block3.text">
+            Системи роботи над проєктами і завданнями, які зменшують хаос і підвищують ефективність.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/planning.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block4.title">📋 Планування</span>
+          <p data-i18n="order.blocks.block4.text">
+            Ставлю цілі і розбиваю їх на маленькі кроки, щоб рух був легким і зрозумілим.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/cleanliness.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block5.title">🧹 Чистота</span>
+          <p data-i18n="order.blocks.block5.text">
+            Чистота зовні допомагає впорядкувати думки всередині.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/self-development.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block6.title">📚 Саморозвиток</span>
+          <p data-i18n="order.blocks.block6.text">
+            Малими кроками щодня вдосконалюю себе та розвиваю нові навички.
+          </p>
+        </a>
+
+        <a href="pages/blocks/block/focus.html" class="block">
+          <span class="now-title" data-i18n="order.blocks.block7.title">🎯 Фокус</span>
+          <p data-i18n="order.blocks.block7.text">
+            Фокусуюсь лише на важливому, щоб уникати зайвого шуму і розсіювання.
+          </p>
+        </a>
+      </div>
+
+      <!-- 4️⃣ QUOTE -->
+      <div class="quote">
+        <p data-i18n="order.quote">“Порядок зовні створює ясність всередині.”</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <div id="footer-container"></div>
+
+  <!-- JS -->
+  <script src="assets/js/i18n/detect-lang.js"></script>
+  <script src="assets/js/i18n/lang-storage.js"></script>
+  <script src="assets/js/i18n/i18n.js"></script>
+  <script src="assets/js/components.js"></script>
+</body>
+
 </html>
